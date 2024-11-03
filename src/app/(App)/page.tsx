@@ -69,7 +69,7 @@ const products = [
   {
     name: "Frozen Food",
     description: "Berbagai frozen food halal & lezat",
-    website: "https://typehere.fun",
+    website: "https://ikhwan-butcher.vercel.app",
     logo: "/typehere.webp",
     story: "/project/typehere",
     stack: ["Nugget", "Sosis", "French Fries", "Dll"],
@@ -78,7 +78,7 @@ const products = [
   },
   {
     name: "Dan lain-lain",
-    website: "https://github.com/fahreziadh/bikinsoal",
+    website: "https://ikhwan-butcher.vercel.app",
     description: "Open-source quiz generator tool for teacher.",
     story: "/project/bikinsoal",
     thumbnail: "/basmati.webp",

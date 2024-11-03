@@ -81,7 +81,7 @@ const dagingSapi = [
   },
   {
     name: "Dan lain-lain",
-    website: "https://github.com/fahreziadh/bikinsoal",
+    website: "https://github.com/ikhwanbutcher",
     description: "Open-source quiz generator tool for teacher.",
     story: "/project/bikinsoal",
     thumbnail: "/basmati.webp",
@@ -164,7 +164,7 @@ const dagingAyam = [
   },
   {
     name: "Dan lain-lain",
-    website: "https://github.com/fahreziadh/bikinsoal",
+    website: "https://github.com/ikhwanbutcher/ikhwanbutcher",
     description: "Open-source quiz generator tool for teacher.",
     story: "/project/bikinsoal",
     thumbnail: "/basmati.webp",

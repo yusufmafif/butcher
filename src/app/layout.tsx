@@ -7,15 +7,15 @@ import { Provider } from "./provider";
 import { Toaster } from "sonner";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://fahrezi.fyi"),
+  metadataBase: new URL("https://ikhwan-butcher.vercel.app"),
   title: "Ikhwan Butcher - Bogor",
-  description: "Software Engineer",
+  description: "Toko Daging Ayam Ikhwan Butcher Bogor",
   openGraph: {
     type: "website",
-    url: "https://fahrezi.fyi",
-    description: "Frontend Engineer",
-    title: "Fahrezi Adha",
-    siteName: "Fahrezi Adha",
+    url: "https://ikhwan-butcher.vercel.app",
+    description: "Toko Daging Ayam Ikhwan Butcher Bogor",
+    title: "Ikhwan Butcher",
+    siteName: "Ikhwan Butcher",
     locale: "en_US",
     images: [
       {
@@ -25,11 +25,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@fahreziadhaa",
-    title: "Fahrezi Adha",
-    description: "Frontend Engineer",
+    site: "@ikhwanbutcher",
+    title: "Ikhwan Butcher",
+    description: "Toko Daging Ayam Ikhwan Butcher Bogor",
     images: "/Ikhwan_Butcher.png",
-    creator: "@fahreziadhaa",
+    creator: "@ikhwanbutcher",
   },
   robots: {
     index: true,

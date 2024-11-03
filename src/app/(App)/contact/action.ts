@@ -10,7 +10,7 @@ export const sendNotificationEmail = async (email: string, message: string) => {
       "Content-Type": "application/json",
       Authorization: `Bearer ${process.env.EMAIL_PLUNK_API_KEY}`,
     },
-    body: `{"to":"fahreziadh@gmail.com","subject":"New Email From ${email}","body":"${message}","subscribed":true,"reply":"${email}","headers":{}}`,
+    body: `{"to":"ikhwanbutcher@gmail.com","subject":"New Email From ${email}","body":"${message}","subscribed":true,"reply":"${email}","headers":{}}`,
   };
 
   await fetch("https://api.useplunk.com/v1/send", options)

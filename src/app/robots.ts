@@ -5,7 +5,7 @@ export default function robots() {
           userAgent: '*',
         },
       ],
-      sitemap: 'https://fahrezi.fyi/sitemap.xml',
-      host: 'https://fahrezi.fyi',
+      sitemap: 'https://ikhwan-butcher.vercel.app/sitemap.xml',
+      host: 'https://ikhwan-butcher.vercel.app',
     };
   }

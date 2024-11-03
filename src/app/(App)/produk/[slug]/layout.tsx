@@ -14,27 +14,27 @@ export async function generateMetadata(
     title: post.title,
     openGraph: {
       type: "website",
-      url: `https://fahrezi.fyi/blog/${post.slug}`,
+      url: `https://ikhwan-butcher.vercel.app/${post.slug}`,
       description: "",
       title: post.title,
-      siteName: "Fahrezi Adha",
+      siteName: "Ikhwan Butcher",
       images: [
         {
-          url: `https://fahrezi.fyi/blog/${post.slug}/og`,
+          url: `https://ikhwan-butcher.vercel.app/${post.slug}/og`,
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      site: "@fahreziadhaa",
+      site: "@ikhwanbutcher",
       title: post.title,
       description: "",
       images: [
         {
-          url: `https://fahrezi.fyi/blog/${post.slug}/og`,
+          url: `https://ikhwan-butcher.vercel.app/blog/${post.slug}/og`,
         },
       ],
-      creator: "@fahreziadhaa",
+      creator: "@ikhwanbutcher",
     },
   };
 }
