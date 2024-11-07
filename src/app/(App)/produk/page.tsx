@@ -6,7 +6,6 @@ import Link from "next/link";
 import { useQuery } from "@tanstack/react-query";
 import { formatDistance } from "date-fns";
 import Image from "next/image";
-import { usePathname, useParams, useSearchParams } from "next/navigation";
 import produkSapi from './produkSapi.json'
 import produkAyam from './produkAyam.json'
 
@@ -36,9 +35,7 @@ const Page = () => {
   //   return <div className="container max-w-[680px]">Loading...</div>;
   // }
  
-const params = useParams();
-const pathName = usePathname();
-const searchParams = useSearchParams();
+
   return (
     <div>
       <p className="font-medium mt-10 sm:text-2xl text-xl text-center pb-5">Daging Sapi :</p>
