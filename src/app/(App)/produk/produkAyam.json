@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Daging",
+    "description": "Berbagai daging berkualitas",
+    "website": "https://evaly.io",
+    "logo": "/evaly.webp",
+    "story": "/project/evaly",
+    "stack": [
+      "Rendang",
+      "Giling",
+      "Slices",
+      "Tenderloin",
+      "Tetelan",
+      "Paru"
+    ],
+    "thumbnail": "/daging.webp",
+    "year": "2024"
+  },
+  {
+    "name": "Daging Ayam",
+    "description": "Berbagai bagian ayam berkualitas",
+    "website": "https://evaly.io",
+    "logo": "/evaly.webp",
+    "story": "/project/evaly",
+    "stack": [
+      "Ayam Sehat",
+      "Berbagai bagian ayam",
+      "Fillet",
+      "Hati",
+      "Ceker",
+      "Kulit"
+    ],
+    "thumbnail": "/ayam.webp",
+    "year": "2024"
+  },
+  {
+    "name": "Daging Domba",
+    "description": "Domba berkualitas yang disembelih sendiri",
+    "website": "https://evaly.io",
+    "logo": "/evaly.webp",
+    "story": "/project/evaly",
+    "stack": [
+      "Lamb Steak",
+      "Iga",
+      "Kepala"
+    ],
+    "thumbnail": "/domba.webp",
+    "year": "2024"
+  },
+  {
+    "name": "Seafood",
+    "description": "Berbagai seafood berkualitas",
+    "website": "https://typehere.fun",
+    "logo": "/typehere.webp",
+    "story": "/project/typehere",
+    "stack": [
+      "Ikan",
+      "Udang",
+      "Cumi"
+    ],
+    "thumbnail": "/seaafood.webp",
+    "year": "2024"
+  },
+  {
+    "name": "Frozen Food",
+    "description": "Berbagai frozen food halal & lezat",
+    "website": "https://typehere.fun",
+    "logo": "/typehere.webp",
+    "story": "/project/typehere",
+    "stack": [
+      "Nugget",
+      "Sosis",
+      "French Fries"
+    ],
+    "thumbnail": "/sosis.webp",
+    "year": "2024"
+  },
+  {
+    "name": "Dan lain-lain",
+    "website": "https://github.com/ikhwanbutcher/ikhwanbutcher",
+    "description": "Open-source quiz generator tool for teacher.",
+    "story": "/project/bikinsoal",
+    "thumbnail": "/basmati.webp",
+    "stack": [
+      "Aneka bumbu",
+      "Beras",
+      "Saus",
+      "Aneka rempah"
+    ],
+    "year": "2023"
+  }
+]

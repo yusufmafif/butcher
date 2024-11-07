@@ -1,0 +1,99 @@
+[
+  {
+    "uuid": "c7c0b5c0-4b9e-4b7c-9b2b-9b9b9b9b9b9b",
+    "name": "Daging",
+    "description": "Berbagai daging berkualitas",
+    "website": "https://evaly.io",
+    "logo": "/evaly.webp",
+    "story": "/project/evaly",
+    "stack": [
+      "Rendang",
+      "Giling",
+      "Slices",
+      "Tenderloin",
+      "Tetelan",
+      "Paru",
+      "Dll"
+    ],
+    "thumbnail": "/daging.webp",
+    "price": 30000
+  },
+  {
+    "name": "Daging Ayam",
+    "description": "Berbagai bagian ayam berkualitas",
+    "website": "https://evaly.io",
+    "logo": "/evaly.webp",
+    "story": "/project/evaly",
+    "stack": [
+      "Ayam Sehat",
+      "Berbagai bagian ayam",
+      "Fillet",
+      "Hati",
+      "Ceker",
+      "Kulit",
+      "Dll"
+    ],
+    "thumbnail": "/ayam.webp",
+    "price": 30000
+  },
+  {
+    "name": "Daging Domba",
+    "description": "Domba berkualitas yang disembelih sendiri",
+    "website": "https://evaly.io",
+    "logo": "/evaly.webp",
+    "story": "/project/evaly",
+    "stack": [
+      "Lamb Steak",
+      "Iga",
+      "Kepala",
+      "Dll"
+    ],
+    "thumbnail": "/domba.webp",
+    "price": 30000
+  },
+  {
+    "name": "Seafood",
+    "description": "Berbagai seafood berkualitas",
+    "website": "https://typehere.fun",
+    "logo": "/typehere.webp",
+    "story": "/project/typehere",
+    "stack": [
+      "Ikan",
+      "Udang",
+      "Cumi",
+      "Dll"
+    ],
+    "thumbnail": "/seaafood.webp",
+    "price": 30000
+  },
+  {
+    "name": "Frozen Food",
+    "description": "Berbagai frozen food halal & lezat",
+    "website": "https://typehere.fun",
+    "logo": "/typehere.webp",
+    "story": "/project/typehere",
+    "stack": [
+      "Nugget",
+      "Sosis",
+      "French Fries",
+      "Dll"
+    ],
+    "thumbnail": "/sosis.webp",
+    "price": 30000
+  },
+  {
+    "name": "Dan lain-lain",
+    "website": "https://github.com/ikhwanbutcher",
+    "description": "Open-source quiz generator tool for teacher.",
+    "story": "/project/bikinsoal",
+    "thumbnail": "/basmati.webp",
+    "stack": [
+      "Aneka bumbu",
+      "Beras",
+      "Saus",
+      "Aneka rempah",
+      "Dll"
+    ],
+    "price": 30000
+  }
+]

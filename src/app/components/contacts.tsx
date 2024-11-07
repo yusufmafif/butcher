@@ -29,7 +29,7 @@ const Contacts = () => {
   });
 
   return (
-    <div className="pt-10 ">
+    <div className="pt-5 ">
       <p className="font-medium text-lg mb-4 text-center">Contact</p>
       <div className="grid sm:grid-cols-2 gap-4 border-b border-foreground/5 pb-10">
         {socialMedia.map((item) => (

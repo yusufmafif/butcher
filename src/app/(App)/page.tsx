@@ -2,7 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import Contacts from "../components/contacts";
 import { ArrowBigRight } from "lucide-react";
-
+import Component from "../components/banner";
+import { id } from "date-fns/locale/id";
 
 const products = [
   {
@@ -87,27 +88,42 @@ const products = [
   }
 ];
 
-const Kategori = [
+const Banner = [
   {
+    id: 1,
     name: "Daging",
-    position: "Berbagai daging berkualitas",
-    startDate: ArrowBigRight,
-    endDate: "Present",
-    url: "#nuon",
+    description: "Berbagai daging berkualitas",
+    website: "https://evaly.io",
+    logo: "/evaly.webp",
+    story: "/project/evaly",
+    stack: [
+      "Rendang",
+      "Giling",
+      "Slices",
+      "Tenderloin",
+      "Tetelan",
+      "Paru",
+      "Dll",
+    ],
+    imageUrl: "/daging.webp",
   },
   {
-    name: "Frozen Food",
-    position: "Frozen food halal & lezat",
-    startDate: ArrowBigRight,
-    endDate: "Sep 2023",
-    url: "#creative-station",
-  },
-  {
-    name: "Lain-lain",
-    position: "Bumbu, Rempah dll",
-    startDate: ArrowBigRight,
-    endDate: "Jul 2022",
-    url: "#gameqoo",
+    id: 2,
+    name: "Daging",
+    description: "Berbagai daging berkualitas",
+    website: "https://evaly.io",
+    logo: "/evaly.webp",
+    story: "/project/evaly",
+    stack: [
+      "Rendang",
+      "Giling",
+      "Slices",
+      "Tenderloin",
+      "Tetelan",
+      "Paru",
+      "Dll",
+    ],
+    imageUrl: "/ayam.webp",
   },
 ];
 
@@ -117,8 +133,8 @@ export default async function Home() {
   return (
     <main className="container max-w-[1080px] mx-auto leading-relaxed antialiased pb-20">
       <div className="flex flex-col items-center justify-center text-center">
-        <Image src="/Butcher.png" width={130} height={130} alt="logo" />
-        <Link href="/" className="font-medium text-2xl pt-3">
+        <Image className="pb-10" src="/Butcher.png" width={150} height={150} alt="logo" />
+        {/* <Link href="/" className="font-medium text-2xl pt-3">
           Ikhwan butcher
         </Link>
         <p className="opacity-70 font-medium text-sm">Pasar Bersih Sentul, Blok B-2 - Babakan Madang, Kab. Bogor</p>
@@ -127,8 +143,9 @@ export default async function Home() {
         </p>
         <p className="mt-2 text-foreground/70">
           Melayani delivery order disekitar Babakan Madang{" "}
-        </p>
+        </p> */}
       </div>
+      <Component items={Banner} />
       <Contacts />
       <p className="font-medium mt-10 text-2xl text-center">Kami Menyediakan :</p>
 
