@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 interface BannerItem {
   id: number
-  title: string
+  name: string
   description: string
   imageUrl: string
 }
@@ -18,9 +18,9 @@ interface BannerSlideProps {
 
 export default function Component({
   items = [
-    { id: 1, title: "Summer Sale", description: "Up to 50% off on selected items", imageUrl: "/placeholder.svg?height=400&width=800" },
-    { id: 2, title: "New Arrivals", description: "Check out our latest collection", imageUrl: "/placeholder.svg?height=400&width=800" },
-    { id: 3, title: "Free Shipping", description: "On orders over $100", imageUrl: "/placeholder.svg?height=400&width=800" }
+    { id: 1, name: "Summer Sale", description: "Up to 50% off on selected items", imageUrl: "/placeholder.svg?height=400&width=800" },
+    { id: 2, name: "New Arrivals", description: "Check out our latest collection", imageUrl: "/placeholder.svg?height=400&width=800" },
+    { id: 3, name: "Free Shipping", description: "On orders over $100", imageUrl: "/placeholder.svg?height=400&width=800" }
   ],
   interval = 5000
 }: BannerSlideProps) {
