@@ -9,7 +9,7 @@ function CheckoutPage() {
   const [address, setAddress] = useState("");
 
   // Fungsi untuk menambah dan mengurangi jumlah produk
-  const updateQuantity = (id, amount) => {
+  const updateQuantity = (id : number, amount : number) => {
     setCart((prevCart) =>
       prevCart.map((item) =>
         item.id === id
