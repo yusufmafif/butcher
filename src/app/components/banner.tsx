@@ -54,7 +54,7 @@ export default function Component({
                   alt=""
                   className="absolute inset-0 w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-center p-4">
+                <div className="absolute inset-0 flex flex-col justify-center items-center text-center p-4">
                   {/* <h2 className="text-2xl md:text-4xl font-bold text-white mb-2">{item.title}</h2> */}
                   {/* <p className="text-sm md:text-lg text-white">{item.description}</p> */}
                 </div>
@@ -67,7 +67,7 @@ export default function Component({
       <button
         // variant="outline"
         // size="icon"
-        className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white bg-opacity-50 hover:bg-opacity-75"
+        className="absolute top-1/2 left-4 transform -translate-y-1/2"
         onClick={prevSlide}
         aria-label="Previous slide"
       >
@@ -76,7 +76,7 @@ export default function Component({
       <button
         // variant="outline"
         // size="icon"
-        className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white bg-opacity-50 hover:bg-opacity-75"
+        className="absolute top-1/2 right-4 transform -translate-y-1/2"
         onClick={nextSlide}
         aria-label="Next slide"
       >

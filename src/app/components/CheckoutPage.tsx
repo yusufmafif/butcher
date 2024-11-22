@@ -36,7 +36,7 @@ function CheckoutPage() {
         <h2>Your Cart</h2>
         {cart.map((item) => (
           <div key={item.id} className="cart-item">
-            <p>{item.name}</p>
+            <div className="text-sm">{item.name}</div>
             <p>{item.price} USD</p>
             <div>
               <button onClick={() => updateQuantity(item.id, -1)}>-</button>

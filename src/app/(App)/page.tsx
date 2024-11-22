@@ -133,7 +133,6 @@ export default async function Home() {
   return (
     <main className="container max-w-[1080px] mx-auto leading-relaxed antialiased pb-20">
       <div className="flex flex-col items-center justify-center text-center">
-        <Image className="pb-10" src="/Butcher.png" width={150} height={150} alt="logo" />
         {/* <Link href="/" className="font-medium text-2xl pt-3">
           Ikhwan butcher
         </Link>

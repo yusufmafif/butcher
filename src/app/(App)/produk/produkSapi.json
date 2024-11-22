@@ -16,7 +16,8 @@
       "Dll"
     ],
     "thumbnail": "/daging.webp",
-    "price": 30000
+    "price": 30000,
+    "unit": "kg"
   },
   {
     "name": "Daging Ayam",
@@ -34,7 +35,8 @@
       "Dll"
     ],
     "thumbnail": "/ayam.webp",
-    "price": 30000
+    "price": 30000,
+    "unit": "kg"
   },
   {
     "name": "Daging Domba",
@@ -49,7 +51,8 @@
       "Dll"
     ],
     "thumbnail": "/domba.webp",
-    "price": 30000
+    "price": 30000,
+    "unit": "kg"
   },
   {
     "name": "Seafood",
@@ -64,7 +67,8 @@
       "Dll"
     ],
     "thumbnail": "/seaafood.webp",
-    "price": 30000
+    "price": 30000,
+    "unit": "kg"
   },
   {
     "name": "Frozen Food",
@@ -79,7 +83,8 @@
       "Dll"
     ],
     "thumbnail": "/sosis.webp",
-    "price": 30000
+    "price": 30000,
+    "unit": "kg"
   },
   {
     "name": "Dan lain-lain",
@@ -94,6 +99,7 @@
       "Aneka rempah",
       "Dll"
     ],
-    "price": 30000
+    "price": 30000,
+    "unit": "kg"
   }
 ]
