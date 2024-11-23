@@ -77,6 +77,7 @@ export default function ShoppingCartComponent() {
                     width={50}
                     height={50}
                   />
+                  <span>{item.name}</span>
                   <div className='space-x-2'>
                     <button
                       onClick={() => addToCart({ name: item.name, qty: item.qty - 1 })}
@@ -86,10 +87,8 @@ export default function ShoppingCartComponent() {
                       -
                     </button>
 
-                    {/* Tampilkan Jumlah */}
                     <span className="">{item.qty}</span>
 
-                    {/* Tombol Tambah */}
                     <button
                       onClick={() => addToCart({ name: item.name, qty: item.qty + 1 })}
                       className="text-gray-500 hover:text-gray-700 border rounded px-3 py-1"
@@ -97,7 +96,6 @@ export default function ShoppingCartComponent() {
                       +
                     </button>
                   </div>
-                  <span>{item.name} x {item.qty}</span>
                   <span>Rp {(item.price * item.qty).toLocaleString()}</span>
                   <Button
                     className="relative bg-white text-black border border-secondary hover:scale-105 hover:bg-slate-200"
