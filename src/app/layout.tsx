@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-
+import Head from 'next/head';
 import "./globals.css";
 import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
@@ -42,6 +42,9 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  verification: {
+    google: "DDd59BTuEsfdEUYCVdtJLZvK9vVOJx5_QhQ7cPr--hY",
+  },
 };
 
 export default function RootLayout({
@@ -54,7 +57,7 @@ export default function RootLayout({
       <body
         className={`bg-background font-sans text-foreground antialiased ${GeistSans.variable} ${GeistMono.variable}`}
       >
-        <Toaster position="top-center"/>
+        <Toaster position="top-center" />
         <Provider>{children}</Provider>
       </body>
     </html>
