@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "/Ikhwan_Butcher.png",
+        url: "/Butcher-page.jpg",
       },
     ],
   },
