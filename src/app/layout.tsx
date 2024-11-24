@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     site: "@ikhwanbutcher",
     title: "Ikhwan Butcher",
     description: "Toko Daging Ayam Ikhwan Butcher Bogor",
-    images: "/Ikhwan_Butcher.png",
+    images: "/Butcher-page.jpg",
     creator: "@ikhwanbutcher",
   },
   robots: {
