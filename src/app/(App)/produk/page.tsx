@@ -48,8 +48,6 @@ const Page = () => {
       <ProductList title="Daging Sapi" products={produkSapi} />
       <ProductList title="Frozen Food" products={frozenFood} />
       <ProductList title="Seafood" products={seafood} />
-      
-
     </div>
   );
 };

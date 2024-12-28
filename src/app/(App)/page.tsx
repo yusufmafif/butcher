@@ -9,7 +9,7 @@ const products = [
   {
     name: "Daging",
     description: "Berbagai daging berkualitas",
-    website: "https://evaly.io",
+    website: "/produk",
     logo: "/evaly.webp",
     story: "/project/evaly",
     stack: [
@@ -27,7 +27,8 @@ const products = [
   {
     name: "Daging Ayam",
     description: "Berbagai bagian ayam berkualitas",
-    website: "https://evaly.io",
+    website: "/produk",
+
     logo: "/evaly.webp",
     story: "/project/evaly",
     stack: [
@@ -45,7 +46,7 @@ const products = [
   {
     name: "Daging Domba",
     description: "Domba berkualitas yang disembelih sendiri",
-    website: "https://evaly.io",
+    website: "/produk",
     logo: "/evaly.webp",
     story: "/project/evaly",
     stack: [
@@ -60,7 +61,7 @@ const products = [
   {
     name: "Seafood",
     description: "Berbagai seafood berkualitas",
-    website: "https://typehere.fun",
+    website: "/produk",
     logo: "/typehere.webp",
     story: "/project/typehere",
     stack: ["Ikan", "Udang", "Cumi", "Dll"],
@@ -70,7 +71,7 @@ const products = [
   {
     name: "Frozen Food",
     description: "Berbagai frozen food halal & lezat",
-    website: "https://ikhwan-butcher.vercel.app",
+    website: "/produk",
     logo: "/typehere.webp",
     story: "/project/typehere",
     stack: ["Nugget", "Sosis", "French Fries", "Dll"],
@@ -79,7 +80,7 @@ const products = [
   },
   {
     name: "Dan lain-lain",
-    website: "https://ikhwan-butcher.vercel.app",
+    website: "/produk",
     description: "Open-source quiz generator tool for teacher.",
     story: "/project/bikinsoal",
     thumbnail: "/basmati.webp",
