@@ -8,7 +8,9 @@ import { formatDistance } from "date-fns";
 import Image from "next/image";
 import produkSapi from './produkSapi.json'
 import produkAyam from './produkAyam.json'
-
+import seafood from './seafood.json'
+import frozenFood from './frozenFood.json'
+import { ProductList } from "@/app/components/ProductList";
 
 interface produkSapi {
   name: string;
@@ -34,129 +36,20 @@ const Page = () => {
   // if (isClientIndonesian === undefined) {
   //   return <div className="container max-w-[680px]">Loading...</div>;
   // }
- 
+  const [visibleItems, setVisibleItems] = useState(4); // Default to showing 8 items
+
+  // Function to show more items
+  const showMoreItems = () => {
+    setVisibleItems((prev) => prev + 4); // Show 4 more items each time
+  };
 
   return (
     <div>
-      <p className="font-medium mt-10 sm:text-2xl text-xl text-center pb-5">Daging Sapi :</p>
-      <div className="container max-w-[1080px] grid md:grid-cols-4 grid-cols-2 gap-6">
-        {produkSapi.map((post, index) => (
-          <Link
-            key={index}
-            href={`/produk/${post.name}`}
-            className="flex flex-col items-start border border-foreground/0 hover:bg-foreground/5 hover:border-foreground/10 transition-all rounded-md -m-3 p-3"
-          >
-            <Image src={post.thumbnail} alt={post.name} width={400} height={300} className="aspect-square object-cover rounded-lg border border-foreground/5 shadow-sm w-full h-auto" />
-            <p className="mt-4 mx-auto">{post.name}</p>
-            {/* <span className="opacity-50">
-                {formatDistance(post.createdAt, new Date(), {
-                  addSuffix: true,
-                  })}
-                  </span> */}
-            {/* <Views slug={post.slug} /> */}
-          </Link>
-        ))}
-      </div>
+      <ProductList title="Daging Sapi" products={produkSapi} />
+      <ProductList title="Frozen Food" products={frozenFood} />
+      <ProductList title="Seafood" products={seafood} />
+      
 
-      <p className="font-medium mt-10 sm:text-2xl text-xl text-center pb-5">Daging Ayam :</p>
-     <div className="container max-w-[1080px] grid md:grid-cols-4 grid-cols-2 gap-6">
-        {produkSapi.map((post, index) => (
-          <Link
-            key={index}
-            href={`/blog/${post.name}`}
-            className="flex flex-col items-start border border-foreground/0 hover:bg-foreground/5 hover:border-foreground/10 transition-all rounded-md -m-3 p-3"
-          >
-            <Image src={post.thumbnail} alt={post.name} width={400} height={300} className="aspect-square object-cover rounded-lg border border-foreground/5 shadow-sm w-full h-auto" />
-            <p className="mt-4 mx-auto">{post.name}</p>
-            {/* <span className="opacity-50">
-                {formatDistance(post.createdAt, new Date(), {
-                  addSuffix: true,
-                  })}
-                  </span> */}
-            {/* <Views slug={post.slug} /> */}
-          </Link>
-        ))}
-      </div> 
-
-      <p className="font-medium mt-10 sm:text-2xl text-xl text-center pb-5">Daging Domba :</p>
-     <div className="container max-w-[1080px] grid md:grid-cols-4 grid-cols-2 gap-6">
-        {produkSapi.map((post, index) => (
-          <Link
-            key={index}
-            href={`/blog/${post.name}`}
-            className="flex flex-col items-start border border-foreground/0 hover:bg-foreground/5 hover:border-foreground/10 transition-all rounded-md -m-3 p-3"
-          >
-            <Image src={post.thumbnail} alt={post.name} width={400} height={300} className="aspect-square object-cover rounded-lg border border-foreground/5 shadow-sm w-full h-auto" />
-            <p className="mt-4 mx-auto">{post.name}</p>
-            {/* <span className="opacity-50">
-                {formatDistance(post.createdAt, new Date(), {
-                  addSuffix: true,
-                  })}
-                  </span> */}
-            {/* <Views slug={post.slug} /> */}
-          </Link>
-        ))}
-      </div> 
-
-      <p className="font-medium mt-10 sm:text-2xl text-xl text-center pb-5">Seafood :</p>
-     <div className="container max-w-[1080px] grid md:grid-cols-4 grid-cols-2 gap-6">
-        {produkSapi.map((post, index) => (
-          <Link
-            key={index}
-            href={`/blog/${post.name}`}
-            className="flex flex-col items-start border border-foreground/0 hover:bg-foreground/5 hover:border-foreground/10 transition-all rounded-md -m-3 p-3"
-          >
-            <Image src={post.thumbnail} alt={post.name} width={400} height={300} className="aspect-square object-cover rounded-lg border border-foreground/5 shadow-sm w-full h-auto" />
-            <p className="mt-4 mx-auto">{post.name}</p>
-            {/* <span className="opacity-50">
-                {formatDistance(post.createdAt, new Date(), {
-                  addSuffix: true,
-                  })}
-                  </span> */}
-            {/* <Views slug={post.slug} /> */}
-          </Link>
-        ))}
-      </div> 
-
-      <p className="font-medium mt-10 sm:text-2xl text-xl text-center pb-5">Frozen Food :</p>
-     <div className="container max-w-[1080px] grid md:grid-cols-4 grid-cols-2 gap-6">
-        {produkSapi.map((post, index) => (
-          <Link
-            key={index}
-            href={`/blog/${post.name}`}
-            className="flex flex-col items-start border border-foreground/0 hover:bg-foreground/5 hover:border-foreground/10 transition-all rounded-md -m-3 p-3"
-          >
-            <Image src={post.thumbnail} alt={post.name} width={400} height={300} className="aspect-square object-cover rounded-lg border border-foreground/5 shadow-sm w-full h-auto" />
-            <p className="mt-4 mx-auto">{post.name}</p>
-            {/* <span className="opacity-50">
-                {formatDistance(post.createdAt, new Date(), {
-                  addSuffix: true,
-                  })}
-                  </span> */}
-            {/* <Views slug={post.slug} /> */}
-          </Link>
-        ))}
-      </div> 
-
-      <p className="font-medium mt-10 sm:text-2xl text-xl text-center pb-5">Dan lain-lain :</p>
-     <div className="container max-w-[1080px] grid md:grid-cols-4 grid-cols-2 gap-6">
-        {produkSapi.map((post, index) => (
-          <Link
-            key={index}
-            href={`/blog/${post.name}`}
-            className="flex flex-col items-start border border-foreground/0 hover:bg-foreground/5 hover:border-foreground/10 transition-all rounded-md -m-3 p-3"
-          >
-            <Image src={post.thumbnail} alt={post.name} width={400} height={300} className="aspect-square object-cover rounded-lg border border-foreground/5 shadow-sm w-full h-auto" />
-            <p className="mt-4 mx-auto">{post.name}</p>
-            {/* <span className="opacity-50">
-                {formatDistance(post.createdAt, new Date(), {
-                  addSuffix: true,
-                  })}
-                  </span> */}
-            {/* <Views slug={post.slug} /> */}
-          </Link>
-        ))}
-      </div> 
     </div>
   );
 };

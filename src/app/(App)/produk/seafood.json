@@ -1,0 +1,156 @@
+[
+  {
+    "uuid": "c7c0b5c0-4b9e-4b7c-9b2b-9b9b9b9b9b9b",
+    "name": "Dori",
+    "description": "Berbagai daging berkualitas",
+    "website": "https://evaly.io",
+    "logo": "/evaly.webp",
+    "story": "/project/evaly",
+    "stack": [
+      "Rendang",
+      "Giling",
+      "Slices",
+      "Tenderloin",
+      "Tetelan",
+      "Paru",
+      "Dll"
+    ],
+    "thumbnail": "/Dori.jpeg",
+    "price": 45000,
+    "unit": "kg"
+  },
+  {
+    "name": "Salem",
+    "description": "Berbagai bagian ayam berkualitas",
+    "website": "https://evaly.io",
+    "logo": "/evaly.webp",
+    "story": "/project/evaly",
+    "stack": [
+      "Ayam Sehat",
+      "Berbagai bagian ayam",
+      "Fillet",
+      "Hati",
+      "Ceker",
+      "Kulit",
+      "Dll"
+    ],
+    "thumbnail": "/Salem.webp",
+    "price": 35000,
+    "unit": "kg"
+  },
+  {
+    "name": "Kembung",
+    "description": "Domba berkualitas yang disembelih sendiri",
+    "website": "https://evaly.io",
+    "logo": "/evaly.webp",
+    "story": "/project/evaly",
+    "stack": [
+      "Lamb Steak",
+      "Iga",
+      "Kepala",
+      "Dll"
+    ],
+    "thumbnail": "/Kembung.jpg",
+    "price": 45000,
+    "unit": "kg"
+  },
+  {
+    "name": "Cumi Ring",
+    "description": "Berbagai seafood berkualitas",
+    "website": "https://typehere.fun",
+    "logo": "/typehere.webp",
+    "story": "/project/typehere",
+    "stack": [
+      "Ikan",
+      "Udang",
+      "Cumi",
+      "Dll"
+    ],
+    "thumbnail": "/Cumi Ring.jpeg",
+    "price": 85000,
+    "unit": "kg"
+  },
+  {
+    "name": "Cumi Tube",
+    "description": "Berbagai frozen food halal & lezat",
+    "website": "https://typehere.fun",
+    "logo": "/typehere.webp",
+    "story": "/project/typehere",
+    "stack": [
+      "Nugget",
+      "Sosis",
+      "French Fries",
+      "Dll"
+    ],
+    "thumbnail": "/Cumi tube.jpeg",
+    "price": 75000,
+    "unit": "kg"
+  },
+  {
+    "name": "Salmon Filet",
+    "website": "https://github.com/ikhwanbutcher",
+    "description": "Open-source quiz generator tool for teacher.",
+    "story": "/project/bikinsoal",
+    "thumbnail": "/Salmon fillet.webp",
+    "stack": [
+      "Tenderloin",
+      "Rib Eye",
+      "Sirloin"
+    ],
+    "price": 28500,
+    "unit": "kg"
+  },
+  {
+    "name": "Tuna",
+    "website": "https://github.com/ikhwanbutcher",
+    "description": "Open-source quiz generator tool for teacher.",
+    "story": "/project/bikinsoal",
+    "thumbnail": "/Tuna.jpeg",
+    "stack": [
+    ],
+    "price": 105000,
+    "unit": "kg"
+  },
+  {
+    "name": "Kepala Kakap Merah",
+    "website": "https://github.com/ikhwanbutcher",
+    "description": "Open-source quiz generator tool for teacher.",
+    "story": "/project/bikinsoal",
+    "thumbnail": "/kepala kakap merah.jpeg",
+    "stack": [
+      "Tenderloin",
+      "Rib Eye",
+      "Sirloin"
+    ],
+    "price": 85000,
+    "unit": "kg"
+  },
+  {
+    "name": "Udang Kupas Besar",
+    "website": "https://github.com/ikhwanbutcher",
+    "description": "Open-source quiz generator tool for teacher.",
+    "story": "/project/bikinsoal",
+    "thumbnail": "/Udang kupas besar.jpeg",
+    "stack": [
+      "Tenderloin",
+      "Rib Eye",
+      "Sirloin"
+    ],
+    "price": 125000,
+    "unit": "kg"
+  },
+  {
+    "name": "Rahang Salmon",
+    "website": "https://github.com/ikhwanbutcher",
+    "description": "Open-source quiz generator tool for teacher.",
+    "story": "/project/bikinsoal",
+    "thumbnail": "/rahang salmon.jpeg",
+    "stack": [
+      "Tenderloin",
+      "Rib Eye",
+      "Sirloin"
+    ],
+    "price": 50000,
+    "unit": "kg"
+  }
+]

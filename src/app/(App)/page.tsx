@@ -147,7 +147,6 @@ export default async function Home() {
       <Component items={Banner} />
       <Contacts />
       <p className="font-medium mt-10 text-2xl text-center">Kami Menyediakan :</p>
-
       {/* <p className="font-medium mt-20">products</p> */}
       <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 gap-8 sm:gap-4">
         {products.map((project) => (

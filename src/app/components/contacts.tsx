@@ -44,9 +44,9 @@ const Contacts = () => {
             }}
             className="p-4 hover:opacity-70 group border border-foreground/10 rounded-lg flex flex-row"
           >
-            <div className="grow">
-              <div className="text-sm opacity-70">{item.username}</div>
+            <div className="grow ">
               <div>
+              <div className="text-sm text-gray-500">{item.username}</div>
                 {item.name}{" "}
                 {item.hoverMessage ? (
                   <span className="group-hover:opacity-100 opacity-0">

@@ -1,0 +1,114 @@
+[
+  {
+    "uuid": "c7c0b5c0-4b9e-4b7c-9b2b-9b9b9b9b9b9b",
+    "name": "Shoestring",
+    "description": "Berbagai daging berkualitas",
+    "website": "https://evaly.io",
+    "logo": "/evaly.webp",
+    "story": "/project/evaly",
+    "stack": [
+      "Rendang",
+      "Giling",
+      "Slices",
+      "Tenderloin",
+      "Tetelan",
+      "Paru",
+      "Dll"
+    ],
+    "thumbnail": "/Shoestring.jpeg",
+    "price": 35000,
+    "unit": "kg"
+  },
+  {
+    "name": "Crinkle Cut",
+    "description": "Berbagai bagian ayam berkualitas",
+    "website": "https://evaly.io",
+    "logo": "/evaly.webp",
+    "story": "/project/evaly",
+    "stack": [
+      "Ayam Sehat",
+      "Berbagai bagian ayam",
+      "Fillet",
+      "Hati",
+      "Ceker",
+      "Kulit",
+      "Dll"
+    ],
+    "thumbnail": "/Crinkle Cut.jpeg",
+    "price": 37000,
+    "unit": "kg"
+  },
+  {
+    "name": "Straight Cut",
+    "description": "Domba berkualitas yang disembelih sendiri",
+    "website": "https://evaly.io",
+    "logo": "/evaly.webp",
+    "story": "/project/evaly",
+    "stack": [
+      "Lamb Steak",
+      "Iga",
+      "Kepala",
+      "Dll"
+    ],
+    "thumbnail": "/Straight Cut.jpeg",
+    "price": 35000,
+    "unit": "kg"
+  },
+  {
+    "name": "Sosis Suri Cooktail",
+    "description": "Berbagai seafood berkualitas",
+    "website": "https://typehere.fun",
+    "logo": "/typehere.webp",
+    "story": "/project/typehere",
+    "stack": [
+      "Ikan",
+      "Udang",
+      "Cumi",
+      "Dll"
+    ],
+    "thumbnail": "/SOSIS SURI COCKTAIL.jpg",
+    "price": 75000,
+    "unit": "kg"
+  },
+  {
+    "name": "Smoke Beef Yona",
+    "description": "Berbagai frozen food halal & lezat",
+    "website": "https://typehere.fun",
+    "logo": "/typehere.webp",
+    "story": "/project/typehere",
+    "stack": [
+      "Nugget",
+      "Sosis",
+      "French Fries",
+      "Dll"
+    ],
+    "thumbnail": "/SMOKE BEEF YONA.jpeg",
+    "price": 32000,
+    "unit": "250gr"
+  },
+  {
+    "name": "Bakso Ikan Siade",
+    "website": "https://github.com/ikhwanbutcher",
+    "description": "Open-source quiz generator tool for teacher.",
+    "story": "/project/bikinsoal",
+    "thumbnail": "/BAKSO IKAN SIADE.jpeg",
+    "stack": [
+      "Tenderloin",
+      "Rib Eye",
+      "Sirloin"
+    ],
+    "price": 65000,
+    "unit": "1kg"
+  },
+  {
+    "name": "Otak-otak Siade",
+    "website": "https://github.com/ikhwanbutcher",
+    "description": "Open-source quiz generator tool for teacher.",
+    "story": "/project/bikinsoal",
+    "thumbnail": "/OTAK2 SIADE.jpeg",
+    "stack": [
+    ],
+    "price": 25000,
+    "unit": "500gr"
+  }
+]

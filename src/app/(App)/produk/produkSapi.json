@@ -1,7 +1,7 @@
 [
   {
     "uuid": "c7c0b5c0-4b9e-4b7c-9b2b-9b9b9b9b9b9b",
-    "name": "Daging",
+    "name": "Beef Slice Premium",
     "description": "Berbagai daging berkualitas",
     "website": "https://evaly.io",
     "logo": "/evaly.webp",
@@ -15,12 +15,12 @@
       "Paru",
       "Dll"
     ],
-    "thumbnail": "/daging.webp",
-    "price": 30000,
+    "thumbnail": "/Beef Slice.jpeg",
+    "price": 150000,
     "unit": "kg"
   },
   {
-    "name": "Daging Ayam",
+    "name": "Slice USA",
     "description": "Berbagai bagian ayam berkualitas",
     "website": "https://evaly.io",
     "logo": "/evaly.webp",
@@ -34,12 +34,12 @@
       "Kulit",
       "Dll"
     ],
-    "thumbnail": "/ayam.webp",
-    "price": 30000,
+    "thumbnail": "/Beef Slice US.jpg",
+    "price": 150000,
     "unit": "kg"
   },
   {
-    "name": "Daging Domba",
+    "name": "Steak Rib Eye Ausie",
     "description": "Domba berkualitas yang disembelih sendiri",
     "website": "https://evaly.io",
     "logo": "/evaly.webp",
@@ -50,12 +50,12 @@
       "Kepala",
       "Dll"
     ],
-    "thumbnail": "/domba.webp",
-    "price": 30000,
+    "thumbnail": "/Ribeye.jpeg",
+    "price": 175000,
     "unit": "kg"
   },
   {
-    "name": "Seafood",
+    "name": "Steak Sirloin Ausie",
     "description": "Berbagai seafood berkualitas",
     "website": "https://typehere.fun",
     "logo": "/typehere.webp",
@@ -66,12 +66,12 @@
       "Cumi",
       "Dll"
     ],
-    "thumbnail": "/seaafood.webp",
-    "price": 30000,
+    "thumbnail": "/sirloin.jpeg",
+    "price": 180000,
     "unit": "kg"
   },
   {
-    "name": "Frozen Food",
+    "name": "Daging Giling",
     "description": "Berbagai frozen food halal & lezat",
     "website": "https://typehere.fun",
     "logo": "/typehere.webp",
@@ -82,24 +82,157 @@
       "French Fries",
       "Dll"
     ],
-    "thumbnail": "/sosis.webp",
-    "price": 30000,
+    "thumbnail": "/Daging giling.jpeg",
+    "price": 135000,
     "unit": "kg"
   },
   {
-    "name": "Dan lain-lain",
+    "name": "Aneka Steak Meltique",
     "website": "https://github.com/ikhwanbutcher",
     "description": "Open-source quiz generator tool for teacher.",
     "story": "/project/bikinsoal",
-    "thumbnail": "/basmati.webp",
+    "thumbnail": "/Aneka steak.jpeg",
     "stack": [
-      "Aneka bumbu",
-      "Beras",
-      "Saus",
-      "Aneka rempah",
-      "Dll"
+      "Tenderloin",
+      "Rib Eye",
+      "Sirloin"
     ],
-    "price": 30000,
+    "price": 49000,
+    "unit": "200gr"
+  },
+  {
+    "name": "Saikoro Premium",
+    "website": "https://github.com/ikhwanbutcher",
+    "description": "Open-source quiz generator tool for teacher.",
+    "story": "/project/bikinsoal",
+    "thumbnail": "/Saikoro.jpg",
+    "stack": [
+    ],
+    "price": 165000,
+    "unit": "kg"
+  },
+  {
+    "name": "Tenderloin utuh",
+    "website": "https://github.com/ikhwanbutcher",
+    "description": "Open-source quiz generator tool for teacher.",
+    "story": "/project/bikinsoal",
+    "thumbnail": "/Tenderloin utuh.jpeg",
+    "stack": [
+    ],
+    "price": 180000,
+    "unit": "kg"
+  },
+  {
+    "name": "Iga Short Rib Super",
+    "website": "https://github.com/ikhwanbutcher",
+    "description": "Open-source quiz generator tool for teacher.",
+    "story": "/project/bikinsoal",
+    "thumbnail": "/Iga short rib.jpeg",
+    "stack": [
+      "Tenderloin",
+      "Rib Eye",
+      "Sirloin"
+    ],
+    "price": 135000,
+    "unit": "kg"
+  },
+  {
+    "name": "Buntut Center Cut",
+    "website": "https://github.com/ikhwanbutcher",
+    "description": "Open-source quiz generator tool for teacher.",
+    "story": "/project/bikinsoal",
+    "thumbnail": "/Buntut.jpeg",
+    "stack": [
+    ],
+    "price": 125000,
+    "unit": "kg"
+  },
+  {
+    "name": "Buntut",
+    "website": "https://github.com/ikhwanbutcher",
+    "description": "Open-source quiz generator tool for teacher.",
+    "story": "/project/bikinsoal",
+    "thumbnail": "/Buntut.jpeg",
+    "stack": [
+    ],
+    "price": 125000,
+    "unit": "kg"
+  },
+  {
+    "name": "Neckbone",
+    "website": "https://github.com/ikhwanbutcher",
+    "description": "Open-source quiz generator tool for teacher.",
+    "story": "/project/bikinsoal",
+    "thumbnail": "/Neckbone.jpeg",
+    "stack": [
+    ],
+    "price": 60000,
+    "unit": "kg"
+  },
+  {
+    "name": "Tulang Sumsum",
+    "website": "https://github.com/ikhwanbutcher",
+    "description": "Open-source quiz generator tool for teacher.",
+    "story": "/project/bikinsoal",
+    "thumbnail": "/Tulang Sumsum.jpeg",
+    "stack": [
+    ],
+    "price": 32000,
+    "unit": "kg"
+  },
+  {
+    "name": "Paru",
+    "website": "https://github.com/ikhwanbutcher",
+    "description": "Open-source quiz generator tool for teacher.",
+    "story": "/project/bikinsoal",
+    "thumbnail": "/Paru.jpeg",
+    "stack": [
+    ],
+    "price": 85000,
+    "unit": "kg"
+  },
+  {
+    "name": "Ati",
+    "website": "https://github.com/ikhwanbutcher",
+    "description": "Open-source quiz generator tool for teacher.",
+    "story": "/project/bikinsoal",
+    "thumbnail": "/ati.jpeg",
+    "stack": [
+    ],
+    "price": 60000,
+    "unit": "kg"
+  },
+  {
+    "name": "Kambing",
+    "website": "https://github.com/ikhwanbutcher",
+    "description": "Open-source quiz generator tool for teacher.",
+    "story": "/project/bikinsoal",
+    "thumbnail": "/Kambing.jpeg",
+    "stack": [
+    ],
+    "price": 140000,
+    "unit": "kg"
+  },
+  {
+    "name": "Daging Rendang",
+    "website": "https://github.com/ikhwanbutcher",
+    "description": "Open-source quiz generator tool for teacher.",
+    "story": "/project/bikinsoal",
+    "thumbnail": "/Rendang.jpeg",
+    "stack": [
+    ],
+    "price": 125000,
+    "unit": "kg"
+  },
+  {
+    "name": "Daging Semur",
+    "website": "https://github.com/ikhwanbutcher",
+    "description": "Open-source quiz generator tool for teacher.",
+    "story": "/project/bikinsoal",
+    "thumbnail": "/Semur.jpeg",
+    "stack": [
+    ],
+    "price": 115000,
     "unit": "kg"
   }
 ]

@@ -4,6 +4,8 @@ import React, { useState, useContext } from "react"
 import { notFound } from "next/navigation"
 import Image from "next/image"
 import produkSapi from '../produkSapi.json'
+import seafood from '../seafood.json'
+import frozenFood from '../frozenFood.json'
 import ShoppingCartComponent from "../../../components/cart"
 import CartContext from "@/context/CartContext"
 
@@ -29,7 +31,8 @@ export default function ProductDetail({ params }: { params: { slug: string } }) 
   const [disable, setDisable] = useState(true)
 
   const decodedSlug = decodeURIComponent(params.slug)
-  const product = produkSapi.find((p) => p.name === decodedSlug)
+  // const product = produkSapi.find((p) => p.name === decodedSlug)
+  const product = seafood.find((p) => p.name === decodedSlug) || frozenFood.find((p) => p.name === decodedSlug) || produkSapi.find((p) => p.name === decodedSlug)
 
   if (!product) return notFound()
 
