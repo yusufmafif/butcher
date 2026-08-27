@@ -6,7 +6,6 @@ import Image from "next/image"
 import produkSapi from '../produkSapi.json'
 import seafood from '../seafood.json'
 import frozenFood from '../frozenFood.json'
-import ShoppingCartComponent from "../../../components/cart"
 import CartContext from "@/context/CartContext"
 
 export const dynamic = "force-static"
@@ -26,21 +25,15 @@ interface Product {
 }
 
 export default function ProductDetail({ params }: { params: { slug: string } }) {
-  const { cart, addToCart } = useContext(CartContext)
+  const { addToCart } = useContext(CartContext)
   const [qty, setQty] = useState(0)
-  const [disable, setDisable] = useState(true)
 
   const decodedSlug = decodeURIComponent(params.slug)
-  // const product = produkSapi.find((p) => p.name === decodedSlug)
   const product = seafood.find((p) => p.name === decodedSlug) || frozenFood.find((p) => p.name === decodedSlug) || produkSapi.find((p) => p.name === decodedSlug)
 
   if (!product) return notFound()
 
-    
   const checkoutToWhatsApp = () => {
-    const cartItems = cart.map((item: Product) => `${item.name} - Rp. ${item.price}`).join("\n")
-    const total = cart.reduce((sum: number, item: Product) => sum + item.price, 0)
-    // const message = `Saya ingin membeli:\n${cartItems}\n\nTotal: Rp. ${total}`
     const message = `Produk yang dibeli:\n${product.name}\n\nx ${qty}\n\n${product.unit}\n\nTotal: Rp.${(product.price * qty).toLocaleString()}`
     const waLink = `https://api.whatsapp.com/send/?phone=6282124754039&text=${encodeURIComponent(message)}`
     window.open(waLink, "_blank")
@@ -48,7 +41,6 @@ export default function ProductDetail({ params }: { params: { slug: string } }) 
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <ShoppingCartComponent />
       <div className="bg-white shadow-md rounded-lg overflow-hidden border border-gray-200">
         <div className="md:flex">
           <div className="md:w-1/3">

@@ -1,9 +1,8 @@
 "use client";
 import Link from "next/link";
-import React, { useState } from "react";
+import React from "react";
 import { toast } from "sonner";
-import { sendNotificationEmail } from "../(App)/contact/action";
-import { Mail, PhoneCall, MessageCircle, ArrowBigRight } from "lucide-react";
+import { Mail, MessageCircle } from "lucide-react";
 
 const socialMedia = [
   {
@@ -22,12 +21,6 @@ const socialMedia = [
 ];
 
 const Contacts = () => {
-  const [loading, setLoading] = useState(false);
-  const [message, setMessage] = useState({
-    email: "",
-    message: "",
-  });
-
   return (
     <div className="pt-5 ">
       <p className="font-medium text-lg mb-4 text-center">Contact</p>
@@ -64,8 +57,6 @@ const Contacts = () => {
           </Link>
         ))}
       </div>
-
-   
     </div>
   );
 };
